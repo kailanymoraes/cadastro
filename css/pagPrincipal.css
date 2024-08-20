@@ -1,0 +1,58 @@
+body, html{
+    /*background-color: #FFBCE4;*/
+    background-color: #f197cd;
+    font-family: arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 4%;
+    font-family: "Jacquard 24 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+}
+
+.galery img {
+    margin-left: 10%;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+
+}
+.galery img {
+    width: 19%;
+    margin: 1%;
+    transition: transform 0.2s;
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 250px;
+
+}
+
+.galery img:hover {
+    transform: scale(1.1);
+}
+
+.buttons {
+    display: grid;
+}
+
+input {
+    margin-bottom: 5%;
+}
+
+button {
+    height: 40px;
+    background-color: #829DE0;
+    border-radius: 10px;
+    border: none;
+    border: solid 2px #464D61;
+}

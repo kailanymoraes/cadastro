@@ -37,7 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="container">
-        <img src="imagens/login (1).jpg" alt="login image">
+        <img src="icons/login.jpg" alt="login image">
         <form method="post">
             email: <input type="email" name="email" required> <br><br>
             senha: <input type="password" name="senha" required> <br><br>
